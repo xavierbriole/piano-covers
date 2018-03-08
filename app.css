@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #1f252b;
+}
+
+i.icon-white {
+    color: white !important;
+}
+
+.side-nav {
+    background-color: #34404b !important;
+}
+
+#slide-out > li.list {
+    background-color: #424f5a !important;
+}
+
+.side-nav li > a {
+    color: white;
+}
+
+.materialize-textarea {
+    color: white;
+}
+
+#slide-out > li > .user-view > .background {
+    background-color: #23303c;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.s12 {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #34404b !important;
+}
+
+nav, footer{
+    background-color: #34404b !important;
+}
