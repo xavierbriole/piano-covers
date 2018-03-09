@@ -1,0 +1,29 @@
+{
+    "host": "ftp.cluster020.hosting.ovh.net",
+    "username": "xavierbrkr",
+    "password": "aV58a2UE7J5o32gIWujCRtBiX8l1",
+    "remotePath": "videos/",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "ignoreWrongFileEncoding": false,
+    "createSyncCache": true,
+    "autoUpload": true,
+    "autoDelete": true,
+    "autoDownload": false,
+    "disableFtp": false,
+    "ignore": [
+        "/.git",
+        "/.gitignore",
+        "/.vscode/chrome",
+        "/.vscode/.key",
+        "/.vscode/ftp-kr.json",
+        "/.vscode/ftp-kr.task.json",
+        "/.vscode/ftp-kr.error.log",
+        "/.vscode/ftp-kr.sync.*.json"
+    ],
+    "closure": {
+        "create_source_map": "%js_output_file%.map",
+        "output_wrapper": "%output%\n//# sourceMappingURL=%js_output_file_filename%.map"
+    }
+}
